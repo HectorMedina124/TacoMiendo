@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:id="@+id/gridviewdata"
+        android:layout_width="190dp"
+        android:background="@drawable/custom_margen"
+        android:layout_height="180dp">
+
+        <TextView
+            android:id="@+id/comida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Cafe"
+            android:textSize="17dp"
+            android:textStyle="bold|italic"></TextView>
+        <TextView
+            android:id="@+id/precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="$15"
+            android:textColor="#2CEC28"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"/>
+        />
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/cafe"/>
+</RelativeLayout>
+</RelativeLayout>

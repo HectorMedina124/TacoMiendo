@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DireccionesFrag">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="364dp"
+        android:layout_height="479dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/custom_margen"
+            android:drawableRight="@drawable/indicador_derecho"
+            android:text="Nicolas Guillen #6\nPoetas\n7151093848\nZitacuaro Michoacan " />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/custom_margen"
+            android:drawableRight="@drawable/indicador_derecho"
+            android:text="Reforma Sur #3\nIgnacio Zaragoza\n7151534665\nZitacuaro Michoacan " />
+
+        <TextView
+            android:id="@+id/textView9"
+
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/custom_margen"
+            android:drawableRight="@drawable/indicador_derecho"
+            android:text="Guadalupe Victoria #3\nHeroes ferrocarrileros\n7151093848\nZitacuaro Michoacan " />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
